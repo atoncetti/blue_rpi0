@@ -74,7 +74,7 @@ defmodule BlueRpi0.MixProject do
 
   defp description do
     """
-    Nerves System - Raspberry Pi Zero and Zero W
+    Nerves System - Raspberry Pi Zero and Zero W with support for bluetooth and BlueZ
     """
   end
 

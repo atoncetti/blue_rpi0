@@ -155,7 +155,7 @@ When migrating custom systems based on this one, please be aware of the
 following important changes:
 
 * There's a new `getrandom` syscall that is made early in BEAM startup. This
-  blocks the BEAM before `rngd` can be started to provide entropy. The
+  blocks the BEAM beforrngde `rngd` can be started to provide entropy. The
   workaround is to start `rngd` from `erlinit`. See `erlinit.config`.
 * Hardware float is enabled (`eabihf`). If you have pre-built binaries, you will
   need to compile them since previous `eabi` was used.
